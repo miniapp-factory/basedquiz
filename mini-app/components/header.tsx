@@ -30,6 +30,14 @@ const pages = [
     ),
     href: "/",
   },
+  {
+    label: (
+      <div className="flex place-items-center gap-2">
+        <span className="text-xl">Quiz</span>
+      </div>
+    ),
+    href: "/quiz",
+  },
 ];
 
 export function Header() {
